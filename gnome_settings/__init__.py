@@ -18,7 +18,7 @@ md_version = "1.0"
 md_name = "Settings Access"
 md_description = "Quick access to system settings pages"
 md_license = "MIT"
-md_url = "https://github.com/shahiljain/albert-gnome-settings"
+md_url = "https://github.com/shahiljain/albert-python-plugin-gnome-settings"
 md_authors = ["Shahil Jain"]
 
 class Plugin(PluginInstance, GlobalQueryHandler):
