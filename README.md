@@ -1,5 +1,6 @@
 # albert-gnome-settings
 An Albert Launcher plugin that can launch Gnome settings quickly.
+![image](https://github.com/user-attachments/assets/c53ee433-e56b-4e10-80b7-18af88bc9d81)
 
 # Installation
 1. Download the repository. 
