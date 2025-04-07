@@ -48,16 +48,6 @@ class Plugin(PluginInstance, GlobalQueryHandler):
                 "description": "Configure monitors and displays",
                 "command": ["gnome-control-center", "display"]
             },
-            "keyboard": {
-                "title": "Keyboard",
-                "description": "Configure keyboard shortcuts and behavior",
-                "command": ["gnome-control-center", "keyboard"]
-            },
-            "mouse": {
-                "title": "Mouse & Touchpad",
-                "description": "Configure pointing devices",
-                "command": ["gnome-control-center", "mouse"]
-            },
             "sound": {
                 "title": "Sound",
                 "description": "Configure audio devices and volume",
@@ -68,45 +58,10 @@ class Plugin(PluginInstance, GlobalQueryHandler):
                 "description": "Configure power saving options",
                 "command": ["gnome-control-center", "power"]
             },
-            "printers": {
-                "title": "Printers",
-                "description": "Configure printers",
-                "command": ["gnome-control-center", "printers"]
-            },
-            "sharing": {
-                "title": "Sharing",
-                "description": "Configure file and media sharing",
-                "command": ["gnome-control-center", "sharing"]
-            },
-            "privacy": {
-                "title": "Privacy & Security",
-                "description": "Configure privacy and security options",
-                "command": ["gnome-control-center", "privacy"]
-            },
-            "online-accounts": {
-                "title": "Online Accounts",
-                "description": "Configure online service accounts",
-                "command": ["gnome-control-center", "online-accounts"]
-            },
-            "users": {
-                "title": "Users",
-                "description": "Manage user accounts",
-                "command": ["gnome-control-center", "user-accounts"]
-            },
-            "datetime": {
-                "title": "Date & Time",
-                "description": "Configure system clock and timezone",
-                "command": ["gnome-control-center", "datetime"]
-            },
-            "region": {
-                "title": "Region & Language",
-                "description": "Configure locale and language",
-                "command": ["gnome-control-center", "region"]
-            },
-            "universal-access": {
-                "title": "Accessibility",
-                "description": "Configure accessibility options",
-                "command": ["gnome-control-center", "universal-access"]
+            "multitasking": {
+                "title": "Multitasking",
+                "description": "Multitasking gestures and prefrences",
+                "command": ["gnome-control-center", "multitasking"]
             },
             "appearance": {
                 "title": "Appearance",
@@ -123,15 +78,70 @@ class Plugin(PluginInstance, GlobalQueryHandler):
                 "description": "Configure system notifications",
                 "command": ["gnome-control-center", "notifications"]
             },
-            "info": {
-                "title": "System Information",
-                "description": "View system details and information",
-                "command": ["gnome-control-center", "info"]
+            "online-accounts": {
+                "title": "Online Accounts",
+                "description": "Configure online service accounts",
+                "command": ["gnome-control-center", "online-accounts"]
             },
-            "removable-media": {
-                "title": "Removable Media",
-                "description": "Configure removable storage behavior",
-                "command": ["gnome-control-center", "removable-media"]
+            "sharing": {
+                "title": "Sharing",
+                "description": "Configure file and media sharing",
+                "command": ["gnome-control-center", "sharing"]
+            },
+            "mouse": {
+                "title": "Mouse & Touchpad",
+                "description": "Configure pointing devices",
+                "command": ["gnome-control-center", "mouse"]
+            },
+            "keyboard": {
+                "title": "Keyboard",
+                "description": "Configure keyboard shortcuts and behavior",
+                "command": ["gnome-control-center", "keyboard"]
+            },
+            "color": {
+                "title": "Color",
+                "description": "Adjust the Display Color Settings",
+                "command": ["gnome-control-center", "mouse"]
+            },
+            "printers": {
+                "title": "Printers",
+                "description": "Configure printers",
+                "command": ["gnome-control-center", "printers"]
+            },
+            "accessibility": {
+                "title": "Accessibility",
+                "description": "Configure accessibility options",
+                "command": ["gnome-control-center", "universal-access"]
+            },
+            "privacy": {
+                "title": "Privacy & Security",
+                "description": "Configure privacy and security options",
+                "command": ["gnome-control-center", "privacy"]
+            },
+            "system": {
+                "title": "System Settings",
+                "description": "View system settings and information",
+                "command": ["gnome-control-center", "system"]
+            },
+            "region": {
+                "title": "Region & Language",
+                "description": "Configure locale and language",
+                "command": ["gnome-control-center", "region"]
+            },
+            "datetime": {
+                "title": "Date & Time",
+                "description": "Configure system clock and timezone",
+                "command": ["gnome-control-center", "datetime"]
+            },
+            "users": {
+                "title": "Users",
+                "description": "Manage user accounts",
+                "command": ["gnome-control-center", "users"]
+            },
+            "about":{
+                "title": "About",
+                "description": "System Software and Hardware details",
+                "command": ["gnome-control-center", "about"]
             }
         }
         self.icon_path = str(Path(__file__).parent / "settings.svg")
