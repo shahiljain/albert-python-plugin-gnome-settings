@@ -101,7 +101,7 @@ class Plugin(PluginInstance, GlobalQueryHandler):
             "color": {
                 "title": "Color",
                 "description": "Adjust the Display Color Settings",
-                "command": ["gnome-control-center", "mouse"]
+                "command": ["gnome-control-center", "color"]
             },
             "printers": {
                 "title": "Printers",
