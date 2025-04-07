@@ -17,7 +17,7 @@ md_iid = "3.0"
 md_version = "1.0"
 md_name = "Gnome Settings"
 md_description = "Quick access to Gnome system settings pages"
-md_license = "MIT"
+md_license = "GPL V3.0"
 md_url = "https://github.com/shahiljain/albert-python-plugin-gnome-settings"
 md_authors = ["Shahil Jain"]
 
