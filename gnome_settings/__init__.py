@@ -88,6 +88,11 @@ class Plugin(PluginInstance, GlobalQueryHandler):
                 "description": "Configure file and media sharing",
                 "command": ["gnome-control-center", "sharing"]
             },
+            "wellbeing": {
+                "title": "Wellbeing",
+                "description": "See Usage Stats and control screen-time",
+                "command": ["gnome-control-center", "wellbeing"]
+            },
             "mouse": {
                 "title": "Mouse & Touchpad",
                 "description": "Configure pointing devices",
